@@ -1,13 +1,12 @@
-import Link from "next/link";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="text-lg">Welcome</h1>
-      <Link href="/properties" className="text-blue-500">
-        Show properties
-      </Link>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
   );
 };
 

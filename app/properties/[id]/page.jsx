@@ -7,7 +7,6 @@ const PropertyPage = () => {
   const { id } = useParams();
   const searchParams = useSearchParams();
 
-  console.log(searchParams.getAll("home"));
   return (
     <div>
       <h1 className="text-lg">Properties</h1>
