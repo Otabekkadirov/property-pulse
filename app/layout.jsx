@@ -11,7 +11,7 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     // styles are for footer to be on the bottom of the page
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full overflow-y-scroll">
       <body className="h-full flex flex-col">
         <Navbar />
         <main className="flex-1">{children}</main>
